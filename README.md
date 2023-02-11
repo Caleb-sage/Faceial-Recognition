@@ -1,2 +1,5 @@
-# Faceial-Recognition
-Haar cascade is a machine learning-based object detection method using rectangular filters to detect objects in images/video.
+# Faceial-RecognitionHaar cascade is a machine learning-based object detection method used to identify objects in images or video streams. It is named after the Haar wavelets, a mathematical tool used to extract features from images. The algorithm uses a set of simple rectangular filters, called Haar features, to detect the presence of an object in an image. It operates by sliding the filters over the image and computing the sum of intensity values in the rectangular regions. The resulting values are then compared to a set of predefined threshold values to determine whether an object is present in the current window.
+
+Haar cascades are widely used in computer vision applications, including face detection, object tracking, and gesture recognition. The algorithm is fast and efficient, making it suitable for real-time object detection on resource-constrained systems. The Haar cascade algorithm is easy to understand and implement, making it a popular choice for computer vision projects.
+
+This repository provides an implementation of the Haar cascade algorithm in Python, along with a set of pre-trained Haar cascades for detecting faces and other objects. The code is well-documented and designed to be easily extendable, making it a great starting point for anyone looking to explore the Haar cascade algorithm.
